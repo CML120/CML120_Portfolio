@@ -4,10 +4,6 @@
 
   ## Table of Contents
   - [Description](#project-description)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Testing](#testing)
   - [Contact](#contact)
 
 
@@ -54,24 +50,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
   ### License 
   
   [![Generic badge](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/.)
-  
-   
-
-  
-  ## Installation 
-  install instructions
-
-
-  ## Usage 
-  usage instructions
-
-
-  ## Contribution
-  contribution instructions
-
-
-  ## Testing
-  testing instructions
 
   
   ## Contact
