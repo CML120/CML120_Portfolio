@@ -1,0 +1,24 @@
+/* Footer.css */
+.footers {
+  text-decoration: none;
+  color: lightskyblue;
+  font-size: 40px;
+  text-shadow: 6px 8px 9px rgb(62, 226, 255);
+  
+}
+
+.footers:hover {
+  text-decoration: underline; /* Optional: Add underline on hover */
+  text-shadow: 6px 8px 9px rgb(0, 255, 98);
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.footers {
+  text-align: right;
+}
+

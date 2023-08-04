@@ -1,0 +1,48 @@
+:root {
+  --blue: #0c3559;
+  --darkblue: #092640;
+  --seablue: #687b8c;
+  --lightseablue: #aab9bf;
+  --light: #f2f2f2;
+  --textcolor: #fff;
+  --bgcolor0: #021c1e;
+  --bgcolor1: #004445;
+  --bgcolor2: #2c7873;
+  --bgcolor3: #6fb98f;
+}
+
+#navbar {
+  background-color: black;
+}
+
+#navbar ul {
+  display: flex;
+  /* Use flexbox to make the <li> elements display in the same row */
+  list-style: none;
+  /* Remove the default list styles (bullet points) */
+  padding: 0;
+  /* Remove any default padding on the <ul> element */
+}
+
+#navbar li {
+  margin-right: 3rem;
+  /* Add some margin between the <li> elements for spacing */
+}
+
+#navbar a {
+  text-decoration: none;
+  color: lightskyblue;
+  font-size: 33px;
+  text-shadow: 6px 8px 9px rgb(62, 226, 255);
+}
+
+#navbar a:hover {
+  /* color: var(--light); */
+  transform: scale(4) !important;
+  color: rgb(0, 212, 46);
+  text-shadow: 10px 10px 10px rgb(72, 255, 0) !important;
+}
+
+.active-link {
+  color: rgb(92, 255, 51);
+}

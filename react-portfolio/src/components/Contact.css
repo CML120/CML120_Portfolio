@@ -1,0 +1,76 @@
+/* Contact.css */
+
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 30px;
+  margin-bottom: 15px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0c3559;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(28, 199, 37);
+}
+
+/* Additional styles for better visual appeal (optional) */
+.form-label {
+  width: 100px; /* Adjust this value to set the desired width for labels */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 350px; /* Adjust this value to set the desired width for inputs and textarea */
+  padding: 15px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 400px; /* Adjust this value to set the desired max width for the form */
+  margin:  auto; /* Center the form horizontally on the page */
+}

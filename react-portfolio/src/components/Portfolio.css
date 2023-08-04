@@ -1,0 +1,71 @@
+/* Portfolio.css */
+.portfolio-image {
+    width: 250px; /* Set the desired width */
+    height: 0px; /* Set the desired height */
+    object-fit: cover; /* Make sure the image maintains aspect ratio and covers the container */
+    border: 1px solid grey; /* Optional: Add a border for visual separation */
+  }
+
+  .portfolio-image:hover {
+    transform: scale(2.15);
+
+  }
+
+  /* Portfolio.css */
+.portfolio-items-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Optional: Add some gap between the portfolio items */
+  }
+  
+  .portfolio-item {
+    background-color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a box shadow for a card-like effect */
+    width: 23%; /* Adjust the width as needed to fit four items per row */
+    flex: 0 0 calc(25% - 20px); /* Set each portfolio item to occupy 25% of the container width minus the gap */
+    border: 1px solid lightgreen; /* Optional: Add a border for visual separation */
+    padding: 5px; /* Optional: Add some padding around each portfolio item */
+    box-sizing: border-box; /* Ensure padding is included in the item's width */
+    text-align: center; /* Optional: Center the content in each item */
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-image {
+    width: 100%; /* Set the image to fill the entire width of the item */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  }
+
+  .portfolio-item:hover {
+    /* Apply the larger size on mouseover */
+    transform: scale(2.15); /* You can adjust the scale value to control the enlargement */
+  }
+
+  .links {
+    /* Add styles for the links container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .links a {
+    /* Add styles for each link */
+    margin: 5px 0;
+  }
+
+
+  .live-demo-link, .github-link {
+
+    color: rgb(0, 212, 46);
+    text-shadow: 10px 10px 10px rgb(72, 255, 0);
+  }
+
+  .live-demo-link:hover,
+.github-link:hover {
+  color: rgb(0, 212, 46);
+  text-shadow: 10px 10px 10px rgb(72, 255, 0);
+  transform: scale(1.25)
+}
+
