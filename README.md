@@ -8,7 +8,8 @@
 
 
   ## Project Description
-  This is the project description  
+  The project is a single-page application developed with React. This platform serves as a consolidated showcase of my various projects, demonstrating my proficiencies. Through a user-friendly interface, visitors can explore a diverse collection of applications, gaining insights into my capabilities and past works.   
+  
   ## User Story
 
 ```md
