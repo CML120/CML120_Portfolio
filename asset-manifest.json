@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CML120_Portfolio/static/css/main.9b5b6ec8.css",
-    "main.js": "/CML120_Portfolio/static/js/main.c46a6048.js",
+    "main.css": "/CML120_Portfolio/static/css/main.7d766fa8.css",
+    "main.js": "/CML120_Portfolio/static/js/main.2404f62a.js",
     "static/js/787.a2cb61a6.chunk.js": "/CML120_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bg1.jpg": "/CML120_Portfolio/static/media/bg1.13b5e3331b08f24aea88.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/CML120_Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -22,12 +22,12 @@
     "static/media/readmegenerator.jpg": "/CML120_Portfolio/static/media/readmegenerator.77e25c5c01067509d114.jpg",
     "static/media/pic2.jpg": "/CML120_Portfolio/static/media/pic2.c23ea03ea991412e243a.jpg",
     "index.html": "/CML120_Portfolio/index.html",
-    "main.9b5b6ec8.css.map": "/CML120_Portfolio/static/css/main.9b5b6ec8.css.map",
-    "main.c46a6048.js.map": "/CML120_Portfolio/static/js/main.c46a6048.js.map",
+    "main.7d766fa8.css.map": "/CML120_Portfolio/static/css/main.7d766fa8.css.map",
+    "main.2404f62a.js.map": "/CML120_Portfolio/static/js/main.2404f62a.js.map",
     "787.a2cb61a6.chunk.js.map": "/CML120_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b5b6ec8.css",
-    "static/js/main.c46a6048.js"
+    "static/css/main.7d766fa8.css",
+    "static/js/main.2404f62a.js"
   ]
 }
