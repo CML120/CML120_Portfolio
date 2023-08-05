@@ -14,6 +14,10 @@ const Footer = () => {
           <i className="fab fa-linkedin"></i>
         </a>
 
+        <a href="https://twitter.com/LowKeyMoKei" target="_blank" rel="noopener noreferrer" class="footers">CML LinkedIn
+          <i className="fab fa-twitter"></i>
+        </a>
+
         {/* Add links to other platforms */}
         {/* For example, you can use icons from FontAwesome */}
         {/* Make sure to include the respective icon libraries */}
