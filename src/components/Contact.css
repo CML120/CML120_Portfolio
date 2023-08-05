@@ -34,6 +34,7 @@ textarea {
   resize: vertical;
 }
 
+
 .error {
   color: red;
   margin-top: 5px;
@@ -73,4 +74,20 @@ input, textarea {
   align-items: flex-start;
   max-width: 400px; /* Adjust this value to set the desired max width for the form */
   margin:  auto; /* Center the form horizontally on the page */
+}
+
+textarea.glow-border {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(43, 255, 0, 0.678);
+  transition: box-shadow 1.8s ease-in-out;
+}
+
+textarea.glow-border:focus {
+  box-shadow: 0 0 10px rgba(43, 255, 0, 0.678);
+}
+
+.acknowledgment-message{
+  font-size: 36px;
+  text-shadow: 6px 8px 9px rgb(62, 226, 255);
 }

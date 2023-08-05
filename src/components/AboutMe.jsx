@@ -2,35 +2,46 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import profilePicture from '../components/assets/pic1.jpg';
 import profilePicture2 from '../components/assets/pic2.jpg';
-
+import './AboutMe.css'; 
 
 const AboutMe = () => {
     const [showProfilePicture2, setShowProfilePicture2] = useState(false);
-
+    const [showH2Pulse, setShowH2Pulse] = useState(false); // State variable for pulsing <h2>
+  
     const toggleProfilePicture = () => {
-        setShowProfilePicture2(!showProfilePicture2);
+      setShowProfilePicture2(!showProfilePicture2);
     };
-
+  
+    const toggleH2Pulse = () => {
+      setShowH2Pulse(!showH2Pulse);
+    };
+  
     const imageStyle = {
-        float: 'right',
-        margin: '0 0 10px 10px',
-        width: '230px',
-        height: '300px', // Set a fixed height for the container
-        borderRadius: '50%',
-        overflow: 'hidden',
+      float: 'right',
+      margin: '0 0 10px 10px',
+      width: '230px',
+      height: '300px', 
+      borderRadius: '50%',
+      overflow: 'hidden',
     };
-
+  
     return (
-        <section>
-            <h2>About Me</h2>
-            <img
-                src={showProfilePicture2 ? profilePicture2 : profilePicture}
-                alt="Profile"
-                style={imageStyle}
-                onMouseEnter={toggleProfilePicture}
-                onMouseLeave={toggleProfilePicture}
-            />
-            <div>
+      <section>
+        <h2 className={showH2Pulse ? 'h2-pulse' : ''}>About Me</h2>
+        <img
+          src={showProfilePicture2 ? profilePicture2 : profilePicture}
+          alt="Profile"
+          style={imageStyle}
+          onMouseEnter={() => {
+            toggleProfilePicture();
+            toggleH2Pulse();
+          }}
+          onMouseLeave={() => {
+            toggleProfilePicture();
+            toggleH2Pulse();
+          }}
+        />
+        <div>
                 <p>
                     Welcome to my portfolio! I am a dedicated professional with a background in mechanical engineering and a passion for programming and IT.
                 </p>

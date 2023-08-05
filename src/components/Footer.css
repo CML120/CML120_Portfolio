@@ -22,3 +22,34 @@
   text-align: right;
 }
 
+i {
+
+  text-shadow: 6px 8px 9px rgb(62, 255, 245);
+}
+
+i:hover {
+  /* color: var(--light); */
+  transform: scale(1.5);
+  color: rgb(0, 212, 46);
+  text-shadow: 10px 10px 10px rgb(72, 255, 0) !important;
+}
+
+/* CSS for pulsing animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the pulsing animation to the <i> elements */
+.footer-container i {
+  animation: pulse 2.5s infinite;
+}
+
+@import url('font-awesome/css/font-awesome.min.css');

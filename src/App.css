@@ -76,6 +76,7 @@ h2 {
 
 /* Import the professional font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('font-awesome/css/font-awesome.min.css');
 
 /* Apply the professional font to all elements in the body */
 body {
@@ -87,6 +88,7 @@ h2 {
   color: lightgreen;
   font-family: 'Rajdhani', sans-serif;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -133,9 +133,15 @@ const Resume = () => {
       ))}
 
 <h3>---Work History--- </h3>
-<a href="/CML120_Portfolio/cheeResume.pdf" download target="_blank" rel="noopener noreferrer">
-  -----👉👉👉 You can download my resume here 👈👈👈-----
-</a>
+<a
+        href="/CML120_Portfolio/cheeResume.pdf"
+        download
+        target="_blank"
+        rel="noopener noreferrer"
+        className="pulse-link" // Add the pulse-link class to the download link
+      >
+        -----👉 You can download my resume here 👈-----
+      </a>
 
 <h5>(click each job title to view job details)</h5>
 
