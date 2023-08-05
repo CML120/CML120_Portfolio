@@ -74,7 +74,7 @@ const Resume = () => {
       companies: ['Yang Sister’s Kitchen', 'Trident Productions'],
       locations: ['St. Paul, MN', 'Oshkosh, WI'],
       startDate: 'July 2020',
-      endDate: 'Current',
+      endDate: 'December 2022',
       duties: [
         'Provide expert assistance to home-based businesses in managing social media platforms, curating engaging content for YouTube and Facebook.',
         'Research, acquire, and implement effective and user friendly video editing software to enhance content quality and viewership.',
@@ -133,9 +133,10 @@ const Resume = () => {
       ))}
 
 <h3>---Work History--- </h3>
-<a href="/cheeResume.pdf" download target="_blank" rel="noopener noreferrer">
+<a href="/CML120_Portfolio/cheeResume.pdf" download target="_blank" rel="noopener noreferrer">
   -----👉👉👉 You can download my resume here 👈👈👈-----
-  </a>
+</a>
+
 <h5>(click each job title to view job details)</h5>
 
 {workHistory.map((job, index) => (
