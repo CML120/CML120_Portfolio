@@ -46,3 +46,10 @@
 .active-link {
   color: rgb(92, 255, 51);
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}

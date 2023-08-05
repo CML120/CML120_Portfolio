@@ -2,19 +2,22 @@ import React from 'react'; // Import the React library
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Import necessary components from 'react-router-dom' for routing
 import './App.css'; // Import the stylesheet 
 import 'font-awesome/css/font-awesome.min.css'; // Import the 'font-awesome' CSS for using icons
-import Header from './components/Header'; 
-import AboutMe from './components/AboutMe'; 
-import Portfolio from './components/Portfolio'; 
-import Contact from './components/Contact'; 
-import Resume from './components/Resume'; 
-import Footer from './components/Footer'; 
+import Header from './components/Header';
+import AboutMe from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
+import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <Router> {/* Wrap the entire application in a 'Router' component to enable routing */}
-      <div className="app-container"> 
-        <Header /> {/* Render the 'Header' component at the top */}
-        <div className="content"> 
+      <div className="app-container">
+        <header className="header"> {/* Add the 'header' class here */}
+          <Header /> {/* Render the 'Header' component at the top */}
+        </header>
+
+        <div className="content">
           <Routes> {/* Use 'Routes' component to define different routes for the app */}
             <Route path="/" element={<AboutMe />} /> {/* Define the route for the 'AboutMe' component */}
             <Route path="/aboutme" element={<AboutMe />} /> {/* Define the route for the 'AboutMe' component */}
