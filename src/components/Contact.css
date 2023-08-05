@@ -1,26 +1,31 @@
 /* Contact.css */
 
+/* Style for the main section and contact form */
 section {
   max-width: 600px;
   margin: 0 auto;
   padding: 20px;
 }
 
+/* Styling for the main heading */
 h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 20px;
 }
 
+/* Styling for the form container */
 form {
   display: flex;
   flex-direction: column;
 }
 
+/* Styling for the form labels */
 label {
   font-weight: bold;
 }
 
+/* Styling for text inputs and text areas */
 input,
 textarea {
   padding: 30px;
@@ -30,16 +35,18 @@ textarea {
   font-size: 16px;
 }
 
+/* Styling specific to text areas to allow vertical resizing */
 textarea {
   resize: vertical;
 }
 
-
+/* Styling for error messages */
 .error {
   color: red;
   margin-top: 5px;
 }
 
+/* Styling for the submit button */
 button {
   padding: 10px 20px;
   background-color: #0c3559;
@@ -50,32 +57,36 @@ button {
   cursor: pointer;
 }
 
+/* Styling for the submit button on hover */
 button:hover {
   background-color: rgb(28, 199, 37);
 }
 
-/* Additional styles for better visual appeal (optional) */
+/* Additional styles for adjustments*/
 .form-label {
-  width: 100px; /* Adjust this value to set the desired width for labels */
+  width: 100px; /* set the desired width for labels */
 }
 
 .form-group {
   margin-bottom: 20px;
 }
 
+/* Common width and padding for text inputs and text areas */
 input, textarea {
-  width: 350px; /* Adjust this value to set the desired width for inputs and textarea */
+  width: 350px; /* Adjust width for inputs and textarea */
   padding: 15px;
 }
 
+/* Styling for the contact container */
 .contact-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 400px; /* Adjust this value to set the desired max width for the form */
+  max-width: 400px; /* set the max width for the form */
   margin:  auto; /* Center the form horizontally on the page */
 }
 
+/* text areas with a glowing border effect ?? not functioning correctly */
 textarea.glow-border {
   border: 2px solid transparent;
   border-radius: 5px;
@@ -83,10 +94,12 @@ textarea.glow-border {
   transition: box-shadow 1.8s ease-in-out;
 }
 
+/* needs further testing */
 textarea.glow-border:focus {
   box-shadow: 0 0 10px rgba(43, 255, 0, 0.678);
 }
 
+/* Style for acknowledgment message */
 .acknowledgment-message{
   font-size: 36px;
   text-shadow: 6px 8px 9px rgb(62, 226, 255);

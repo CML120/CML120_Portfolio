@@ -1,17 +1,19 @@
 /* App.css */
 
-/* Add these styles to your CSS file (e.g., App.css) */
+/* Styles for the app container */
 .app-container {
   width: 100%;
   text-align: left;
-}
-
-.App-logo {
+  }
+  
+  /* Logo styles */
+  .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-.App-header {
+  }
+  
+  /* Header styles */
+  .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -20,45 +22,41 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
+  }
+  
+  /* Link styles */
+  .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+  }
+  
+  /* Spin animation for the logo */
+  @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+  transform: rotate(0deg);
   }
-
   to {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
   }
-}
+  }
 
-/* Add these styles to your CSS file (e.g., App.css) */
-.scrolling-text {
-  overflow: hidden;
-  white-space: nowrap;
-  width: 200px;
-  /* Adjust the width as needed */
-}
-
-@keyframes scroll {
+  
+  /* Scroll animation for the proficiency text */
+  @keyframes scroll {
   0% {
-    transform: translateX(0);
+  transform: translateX(0);
   }
-
   100% {
-    transform: translateX(-100%);
+  transform: translateX(-100%);
   }
-}
-
-.proficiency-text {
+  }
+  
+  /* Apply scroll animation to elements with the 'proficiency-text' class */
+  .proficiency-text {
   animation: scroll 5s linear infinite;
-}
-
-body {
+  }
+  
+  /* Body styles */
+  body {
   background-image: url('../public/bgMain.jpg');
   min-height: 100%;
   background-repeat: no-repeat;
@@ -66,38 +64,40 @@ body {
   background-position: center;
   background-size: cover;
   color: lightgreen;
-}
-
-h2 {
+  }
+  
+  /* Header 2 styles */
+  h2 {
   color: lightskyblue;
   font-size: 40px;
   text-shadow: 3px 4px 5px rgb(62, 226, 255);
-}
-
-/* Import the professional font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
-@import url('font-awesome/css/font-awesome.min.css');
-
-/* Apply the professional font to all elements in the body */
-body {
+  }
+  
+  /* Import the Rajdhani font from Google Fonts and font-awesome */
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+  @import url('font-awesome/css/font-awesome.min.css');
+  
+  /* Apply the font to all elements in the body */
+  body {
   font-family: 'Rajdhani', sans-serif;
-}
-
-/* You can also apply specific colors to h2 elements */
-h2 {
+  }
+  
+  /* Additional h2 styles */
+  h2 {
   color: lightgreen;
   font-family: 'Rajdhani', sans-serif;
-}
-
-
-@media (prefers-reduced-motion: no-preference) {
+  }
+  
+  /* Apply spin animation to App-logo class with reduced motion preference */
+  @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  animation: App-logo-spin infinite 20s linear;
   }
-}
-
-@media screen and (max-width: 768px) {
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
   .app-container {
-    text-align: center;
+  text-align: center;
   }
-}
+  }

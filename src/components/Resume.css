@@ -51,7 +51,7 @@ a:hover {
 .pulse-link {
   display: inline-block;
   font-size: 18px;
-  animation: pulse 10s infinite; /* Use the 'pulse' animation for 2 seconds, repeat infinitely */
+  animation: pulse 10s infinite; /* Use the 'pulse' animation for 10 seconds, repeat infinitely */
 }
 
 @keyframes pulse {

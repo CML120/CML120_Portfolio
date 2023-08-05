@@ -1,5 +1,8 @@
+//Importing dependencies and css style sheet
 import React from 'react';
 import './Portfolio.css'; 
+
+//Pictures for projects
 import mhsproject from '../components/assets/mhsproject.jpg';
 import hometownsound from '../components/assets/hometownsound.jpg';
 import texteditor from '../components/assets/texteditor.jpg';
@@ -13,6 +16,7 @@ import weatherdashboard from '../components/assets/weatherdashboard.jpg';
 
 
 const Portfolio = () => {
+  // Array of objects representing each portfolio item
   const portfolioItems = [
     {
       title: 'MHS Project',
@@ -70,6 +74,7 @@ const Portfolio = () => {
     },
   ];
 
+  //Portfolio rendered by mapping each item and displaying them with Project Name, image, and Demo/GitHub links
   return (
     <section>
       <h2>Portfolio</h2>

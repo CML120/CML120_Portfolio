@@ -1,15 +1,21 @@
+/* CSS keyframes animation named */
 @keyframes pulse {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.2);
-    }
-    100% {
-      transform: scale(1);
-    }
+  /* At 0% of the animation, the element retains its original size (scale 1) */
+  0% {
+    transform: scale(1);
   }
-  
-  .h2-pulse {
-    animation: pulse 1.5s infinite;
+  /* At 50% of the animation, the element scales to 1.2 times its original size */
+  50% {
+    transform: scale(1.2);
   }
+  /* At 100% of the animation, the element returns to its original size (scale 1) */
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* CSS class 'h2-pulse' for applying the 'pulse' animation to the <h2> element */
+.h2-pulse {
+  /* Apply the 'pulse' animation to the <h2> element with a duration of 1.5 seconds and repeat infinitely */
+  animation: pulse 1.5s infinite;
+}

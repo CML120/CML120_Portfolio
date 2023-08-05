@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Resume.css';
 
 const Resume = () => {
+  // Array of proficiencies
   const developerProficiencies = [
     'JavaScript',
     'React',
@@ -13,8 +14,11 @@ const Resume = () => {
     'SQL',
     // Add more skills as needed
   ];
+
+  //Keep track of work history
   const [expandedJobs, setExpandedJobs] = useState({});
 
+  //Toggle function for job duty details
   const toggleJobExpansion = (index) => {
     setExpandedJobs((prevExpandedJobs) => ({
       ...prevExpandedJobs,
@@ -25,6 +29,8 @@ const Resume = () => {
   const [currentProficiencyIndex, setCurrentProficiencyIndex] = useState(0);
   const proficiencyRef = useRef(null);
 
+
+  //Scrolling effect
   useEffect(() => {
     // Update the scrolling text continuously every 1 second
     const interval = setInterval(() => {

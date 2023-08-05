@@ -1,55 +1,58 @@
-/* Footer.css */
+/* Style for links in the footer */
 .footers {
   text-decoration: none;
-  color: lightskyblue;
+  color: lightskyblue; /* Set the link color */
   font-size: 20px;
-  text-shadow: 6px 8px 9px rgb(62, 226, 255);
-  
+  text-shadow: 6px 8px 9px rgb(62, 226, 255); /* Add a text shadow */
 }
 
+/* Style for links in the footer on hover */
 .footers:hover {
-  text-decoration: underline; /* Optional: Add underline on hover */
-  text-shadow: 6px 8px 9px rgb(0, 255, 98);
+  text-decoration: underline; /* Add underline on hover */
+  text-shadow: 6px 8px 9px rgb(0, 255, 98); /* Change the text shadow on hover */
 }
 
+/* Style for the footer container */
 .footer-container {
-  position: fixed;
+  position: fixed; /* set footer container to be fixed at the bottom right corner */
   bottom: 0;
   right: 0;
 }
 
+/* Align the <i> elements to the right */
 .footers {
   text-align: right;
 }
 
+/* Styling for <i> elements */
 i {
-
-  text-shadow: 6px 8px 9px rgb(62, 255, 245);
+  text-shadow: 6px 8px 9px rgb(62, 255, 245); 
 }
 
+/* Styling for <i> elements on hover */
 i:hover {
-  /* color: var(--light); */
-  transform: scale(1.5);
-  color: rgb(0, 212, 46);
-  text-shadow: 10px 10px 10px rgb(72, 255, 0) !important;
+  transform: scale(1.5); /* Scale up the <i> element on hover */
+  color: rgb(0, 212, 46); /* Change the color on hover */
+  text-shadow: 10px 10px 10px rgb(72, 255, 0) !important; /* Change the text shadow on hover */
 }
 
 /* CSS for pulsing animation */
 @keyframes pulse {
   0% {
-    transform: scale(1);
+    transform: scale(1); 
   }
   50% {
-    transform: scale(1.25);
+    transform: scale(1.25); 
   }
   100% {
-    transform: scale(1);
+    transform: scale(1); 
   }
 }
 
-/* Apply the pulsing animation to the <i> elements */
+/* Apply the pulsing animation to the <i> elements*/
 .footer-container i {
-  animation: pulse 2.5s infinite;
+  animation: pulse 2.5s infinite; 
 }
 
+/* Import the FontAwesome CSS file used for icons*/
 @import url('font-awesome/css/font-awesome.min.css');
