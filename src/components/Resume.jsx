@@ -12,7 +12,12 @@ const Resume = () => {
     'Express',
     'MongoDB',
     'SQL',
-    // Add more skills as needed
+    'APIs',
+    'Test-Driven Development (TDD)',
+    'Responsive Web Design',
+    'JSON Web Tokens (JWT)',
+    'OAuth',
+    'GraphQL'
   ];
 
   //Keep track of work history
@@ -65,7 +70,7 @@ const Resume = () => {
 
   const workHistory = [
     {
-      title: '👉Inventory Control',
+      title: '🔷Inventory Control',
       company: 'Boston Scientific',
       locations: ['Arden Hills, MN'],
       startDate: 'January 2023',
@@ -76,7 +81,7 @@ const Resume = () => {
       ],
     },
     {
-      title: '👉Technical Support and Consultant',
+      title: '🔷Technical Support and Consultant',
       companies: ['Yang Sister’s Kitchen', 'Trident Productions'],
       locations: ['St. Paul, MN', 'Oshkosh, WI'],
       startDate: 'July 2020',
@@ -88,7 +93,7 @@ const Resume = () => {
       ],
     },
     {
-      title: '👉IT Intern/ Junior Analyst',
+      title: '🔷IT Intern/ Junior Analyst',
       company: 'Oshkosh Corporation',
       locations: ['Oshkosh, WI'],
       startDate: 'December 2014',
@@ -101,7 +106,7 @@ const Resume = () => {
       ],
     },
     {
-      title: '👉Maintenance Mechanic',
+      title: '🔷Maintenance Mechanic',
       company: 'Nestle Pizza',
       locations: ['Little Chute, WI'],
       startDate: 'April 2010',
@@ -146,7 +151,7 @@ const Resume = () => {
         rel="noopener noreferrer"
         className="pulse-link" // Add the pulse-link class to the download link
       >
-        -----👉 You can download my resume here 👈-----
+        -----🔷 You can download my resume here 🔷-----
       </a>
 
 <h5>(click each job title to view job details)</h5>
