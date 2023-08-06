@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 5px; /* Optional: Add some gap between the portfolio items */
+    gap: 25px; /* Optional: Add some gap between the portfolio items */
     
   }
   
@@ -73,7 +73,7 @@
 /* For Firefox that supports scrollbar-width property */
 .portfolio-container {
   overflow-y: visible;
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   /* margin-top: -100px; */
 }
 
