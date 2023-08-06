@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Bounce } from "react-awesome-reveal"; //Bounce animation from react-awesome-reveal
 import './Contact.css';
 
 const Contact = () => {
@@ -72,7 +73,7 @@ const Contact = () => {
     if (isSubmitted) {
       const timeout = setTimeout(() => {
         setIsSubmitted(false);
-      }, 2000);
+      }, 2120);
 
       return () => clearTimeout(timeout);
     }
@@ -123,9 +124,11 @@ const Contact = () => {
         </div>
         <button type="submit">Submit</button>
         {isSubmitted && (
+          <Bounce>
           <div className="acknowledgment-message">
             Thank you! Your message has been sent to CML120!
           </div>
+          </Bounce>
         )}
       </form>
     </section>
