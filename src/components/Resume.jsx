@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { Slide } from "react-awesome-reveal"; //Slide animation from react-awesome-reveal
 import './Resume.css';
 
 const Resume = () => {
@@ -158,7 +159,9 @@ const Resume = () => {
 
 {workHistory.map((job, index) => (
   <div key={index}>
+    <Slide cascade triggerOnce={true}>
     <h4 onClick={() => toggleJobExpansion(index)}>
+      
       {job.title}
       {job.companies && job.companies.length > 0 ? ` (${job.companies.join(' / ')})` : ''}
       {job.locations && job.locations.length > 0 ? ` (${job.locations.join(' / ')})` : ''}
@@ -173,7 +176,7 @@ const Resume = () => {
         ))}
       </ul>
     ) : null}
-    
+    </Slide>
   </div>
 ))}
 
