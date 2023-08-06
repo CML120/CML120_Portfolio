@@ -9,7 +9,17 @@
 
   ## Project Description
   The project is a single-page application developed with React. This platform serves as a consolidated showcase of my various projects, demonstrating my proficiencies. Through a user-friendly interface, visitors can explore a diverse collection of applications, gaining insights into my capabilities and past works.     
-  Deployed page: [CML120 Portfolio](https://cml120.github.io/CML120_Portfolio/)
+  Deployed page: [CML120 Portfolio](https://cml120.github.io/CML120_Portfolio/)  
+
+
+  ## Technologies Used
+  This page was made using the following technologies:  
+  
+  HTML/CSS  
+  JavaScript  
+  React and many of its libraries  
+  Font Awesome  
+  gh-pages
   
   ## User Story
 
