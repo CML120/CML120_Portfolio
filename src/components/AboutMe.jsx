@@ -1,6 +1,5 @@
 // Import necessary dependencies
 import React, { useState } from 'react';
-import { Slide } from "react-awesome-reveal"; //Slide animation from react-awesome-reveal
 import { Link } from 'react-router-dom';
 
 // Import profile pictures and CSS file
@@ -54,7 +53,6 @@ const AboutMe = () => {
       />
 
       <div>
-      <Slide cascade triggerOnce={true}>
         <p>
           Welcome to my portfolio! I am a dedicated professional with a background in mechanical engineering and a passion for programming and IT.
         </p>
@@ -73,9 +71,7 @@ const AboutMe = () => {
         <p>
           The projects showcased in this portfolio represent the beginning of my journey into the world of programming and reflect my commitment to continuous learning and improvement.
         </p>
-        </Slide>
       </div>
-      
     </section>
   );
 };

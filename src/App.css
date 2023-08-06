@@ -4,17 +4,17 @@
 .app-container {
   width: 100%;
   text-align: left;
-  padding-top: 140px; 
-  }
-  
-  /* Logo styles */
-  .App-logo {
+  padding-top: 140px;
+}
+
+/* Logo styles */
+.App-logo {
   height: 40vmin;
   pointer-events: none;
-  }
-  
-  /* Header styles */
-  .App-header {
+}
+
+/* Header styles */
+.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,41 +23,43 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  }
-  
-  /* Link styles */
-  .App-link {
+}
+
+/* Link styles */
+.App-link {
   color: #61dafb;
-  }
-  
-  /* Spin animation for the logo */
-  @keyframes App-logo-spin {
+}
+
+/* Spin animation for the logo */
+@keyframes App-logo-spin {
   from {
-  transform: rotate(0deg);
-  }
-  to {
-  transform: rotate(360deg);
-  }
+    transform: rotate(0deg);
   }
 
-  
-  /* Scroll animation for the proficiency text */
-  @keyframes scroll {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Scroll animation for the proficiency text */
+@keyframes scroll {
   0% {
-  transform: translateX(0);
+    transform: translateX(0);
   }
+
   100% {
-  transform: translateX(-100%);
+    transform: translateX(-100%);
   }
-  }
-  
-  /* Apply scroll animation to elements with the 'proficiency-text' class */
-  .proficiency-text {
+}
+
+/* Apply scroll animation to elements with the 'proficiency-text' class */
+.proficiency-text {
   animation: scroll 5s linear infinite;
-  }
-  
-  /* Body styles */
-  body {
+}
+
+/* Body styles */
+body {
   background-image: url('../public/bgMain.jpg');
   min-height: 100%;
   background-repeat: no-repeat;
@@ -65,40 +67,68 @@
   background-position: center;
   background-size: cover;
   color: lightgreen;
-  }
-  
-  /* Header 2 styles */
-  h2 {
+}
+
+/* Header 2 styles */
+h2 {
   color: lightskyblue;
   font-size: 40px;
   text-shadow: 3px 4px 5px rgb(62, 226, 255);
-  }
-  
-  /* Import the Rajdhani font from Google Fonts and font-awesome */
-  @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
-  @import url('font-awesome/css/font-awesome.min.css');
-  
-  /* Apply the font to all elements in the body */
-  body {
+}
+
+/* Import the Rajdhani font from Google Fonts and font-awesome */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('font-awesome/css/font-awesome.min.css');
+
+/* Apply the font to all elements in the body */
+body {
   font-family: 'Rajdhani', sans-serif;
-  }
-  
-  /* Additional h2 styles */
-  h2 {
+}
+
+/* Additional h2 styles */
+h2 {
   color: lightgreen;
   font-family: 'Rajdhani', sans-serif;
-  }
-  
-  /* Apply spin animation to App-logo class with reduced motion preference */
-  @media (prefers-reduced-motion: no-preference) {
+}
+
+/* Apply spin animation to App-logo class with reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
   .App-logo {
-  animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear;
   }
-  }
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
   .app-container {
-  text-align: center;
+    text-align: center;
   }
-  }
+}
+
+section {
+  position: fixed;
+  top: 130px;
+  /* Add the desired distance from the top (adjust as needed) */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: scroll;
+}
+
+/* Hide the scrollbar for WebKit-based browsers */
+section::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+section::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+section::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* For Firefox that supports scrollbar-width property */
+section {
+  scrollbar-width: none;
+}

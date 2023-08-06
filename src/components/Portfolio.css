@@ -16,7 +16,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 20px; /* Optional: Add some gap between the portfolio items */
+    gap: 5px; /* Optional: Add some gap between the portfolio items */
+    
   }
   
   .portfolio-item {
@@ -69,3 +70,15 @@
   transform: scale(1.25)
 }
 
+/* For Firefox that supports scrollbar-width property */
+.portfolio-container {
+  overflow-y: visible;
+  transform: scale(0.9);
+  /* margin-top: -100px; */
+}
+
+.portfolio-items-container{
+  overflow-y: visible;
+  /* transform: scale(0.9);
+  margin-top: -130px; */
+}

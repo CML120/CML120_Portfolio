@@ -1,6 +1,6 @@
 //Importing dependencies and css style sheet
 import React from 'react';
-import './Portfolio.css'; 
+import './Portfolio.css';
 
 //Pictures for projects
 import mhsproject from '../components/assets/mhsproject.jpg';
@@ -26,13 +26,13 @@ const Portfolio = () => {
     },
     {
       title: 'Home Town Sound',
-      imageSrc: hometownsound, 
+      imageSrc: hometownsound,
       liveLink: 'https://cml120.github.io/WWWW-Project-1/',
       githubLink: 'https://github.com/CML120/WWWW-Project-1',
     },
     {
       title: 'Text Editor',
-      imageSrc: texteditor, 
+      imageSrc: texteditor,
       liveLink: 'https://jate-pwa-cml-f40c199d2ecf.herokuapp.com/',
       githubLink: 'https://github.com/CML120/Text-Editor',
     },
@@ -44,31 +44,31 @@ const Portfolio = () => {
     },
     {
       title: 'E-Commerce Backend (video demo)',
-      imageSrc: ecommercebackend, 
+      imageSrc: ecommercebackend,
       liveLink: 'https://drive.google.com/file/d/1NtKs7-XpAJbtasHumcPLU-Tu7Pa9bNGA/view?usp=drive_link',
       githubLink: 'https://github.com/CML120/E-Commerce-backend',
     },
     {
       title: 'SQL Employee Tracker (video demo)',
-      imageSrc: employeetracker, 
+      imageSrc: employeetracker,
       liveLink: 'https://drive.google.com/file/d/1AC0L4MdV91C1wf7eB_xGVbwvspNWRLnJ/view?usp=drive_link',
       githubLink: 'https://github.com/CML120/SQL-Employee-Tracker',
     },
     {
       title: 'SVG Logo Maker (video demo)',
-      imageSrc: svglogomaker, 
+      imageSrc: svglogomaker,
       liveLink: 'https://drive.google.com/file/d/1EOJE-sG7kMvL0ylA8t8mjVhzfUb17HlJ/view?usp=drive_link',
       githubLink: 'https://github.com/CML120/SVG-Logo-Maker',
     },
-    {
-      title: 'README Generator (video demo)',
-      imageSrc: readmegenerator, 
-      liveLink: 'https://drive.google.com/file/d/1QpxHTb1zitsj_9BKa75QRS87MDyrfu-M/view?usp=drive_link',
-      githubLink: 'https://github.com/CML120/README_Generator',
-    },
+    // {
+    //   title: 'README Generator (video demo)',
+    //   imageSrc: readmegenerator,
+    //   liveLink: 'https://drive.google.com/file/d/1QpxHTb1zitsj_9BKa75QRS87MDyrfu-M/view?usp=drive_link',
+    //   githubLink: 'https://github.com/CML120/README_Generator',
+    // },
     {
       title: 'Weather Dashboard',
-      imageSrc: weatherdashboard, 
+      imageSrc: weatherdashboard,
       liveLink: 'https://cml120.github.io/Weather-Dashboard/',
       githubLink: 'https://github.com/CML120/Weather-Dashboard',
     },
@@ -76,7 +76,7 @@ const Portfolio = () => {
 
   //Portfolio rendered by mapping each item and displaying them with Project Name, image, and Demo/GitHub links
   return (
-    <section>
+    <section className="portfolio-container">
       <h2>Portfolio</h2>
       <div className="portfolio-items-container">
         {portfolioItems.map((item, index) => (
