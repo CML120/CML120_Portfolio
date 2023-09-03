@@ -7,7 +7,7 @@
   }
 
   .portfolio-image:hover {
-    transform: scale(2.15);
+    transform: scale(2.5);
 
   }
 
@@ -69,16 +69,41 @@
   text-shadow: 10px 10px 10px rgb(72, 255, 0);
   transform: scale(1.25)
 }
-
-/* For Firefox that supports scrollbar-width property */
-.portfolio-container {
-  overflow-y: visible;
-  /* transform: scale(0.9); */
-  /* margin-top: -100px; */
+.pagination {
+  margin-top: 20px; /* Add some spacing between the portfolio items and buttons */
+  display: flex;
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Vertically center buttons */
 }
 
-.portfolio-items-container{
-  overflow-y: visible;
-  /* transform: scale(0.9);
-  margin-top: -130px; */
+/* Add styles for the "Next" button */
+.pagination button.next-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-left: 10px; /* Add some spacing between buttons (optional) */
+}
+
+/* Add hover effect on the "Next" button */
+.pagination button.next-button:hover {
+  background-color: #0056b3;
+}
+
+/* Add styles for the "Previous" button */
+.pagination button.previous-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-right: 10px; /* Add some spacing between buttons (optional) */
+}
+
+/* Add hover effect on the "Previous" button */
+.pagination button.previous-button:hover {
+  background-color: #0056b3;
 }
