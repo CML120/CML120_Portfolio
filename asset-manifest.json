@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CML120_Portfolio/static/css/main.26ebd117.css",
-    "main.js": "/CML120_Portfolio/static/js/main.64cca1a2.js",
+    "main.css": "/CML120_Portfolio/static/css/main.36a84c8d.css",
+    "main.js": "/CML120_Portfolio/static/js/main.c25909cd.js",
     "static/js/787.a2cb61a6.chunk.js": "/CML120_Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/bg1.jpg": "/CML120_Portfolio/static/media/bg1.13b5e3331b08f24aea88.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/CML120_Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -10,24 +10,24 @@
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/CML120_Portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/mhsproject.jpg": "/CML120_Portfolio/static/media/mhsproject.ace05e9330425c1aea18.jpg",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/CML120_Portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/GHero.jpg": "/CML120_Portfolio/static/media/GHero.fe8d1ec78c6588e96486.jpg",
+    "static/media/ABCGoat.jpg": "/CML120_Portfolio/static/media/ABCGoat.2adbba47eac22e5a9f49.jpg",
     "static/media/socialnetworkapi.jpg": "/CML120_Portfolio/static/media/socialnetworkapi.5ed1ec81a52c6a9e7300.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/CML120_Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/hometownsound.jpg": "/CML120_Portfolio/static/media/hometownsound.823dd5df60714aedcbbc.jpg",
     "static/media/ecommercebackend.jpg": "/CML120_Portfolio/static/media/ecommercebackend.76af7b5f52b89d21bfd2.jpg",
     "static/media/employeetracker.jpg": "/CML120_Portfolio/static/media/employeetracker.d85023dfa42638d31ca2.jpg",
-    "static/media/texteditor.jpg": "/CML120_Portfolio/static/media/texteditor.e90e4338a2d0dbcbd834.jpg",
     "static/media/pic1.jpg": "/CML120_Portfolio/static/media/pic1.e45288ba517be57c6f6a.jpg",
     "static/media/svglogomaker.jpg": "/CML120_Portfolio/static/media/svglogomaker.1875da5a0fa1d574afc4.jpg",
     "static/media/weatherdashboard.jpg": "/CML120_Portfolio/static/media/weatherdashboard.67cf889468c32728acf3.jpg",
-    "static/media/readmegenerator.jpg": "/CML120_Portfolio/static/media/readmegenerator.77e25c5c01067509d114.jpg",
     "static/media/pic2.jpg": "/CML120_Portfolio/static/media/pic2.c23ea03ea991412e243a.jpg",
     "index.html": "/CML120_Portfolio/index.html",
-    "main.26ebd117.css.map": "/CML120_Portfolio/static/css/main.26ebd117.css.map",
-    "main.64cca1a2.js.map": "/CML120_Portfolio/static/js/main.64cca1a2.js.map",
+    "main.36a84c8d.css.map": "/CML120_Portfolio/static/css/main.36a84c8d.css.map",
+    "main.c25909cd.js.map": "/CML120_Portfolio/static/js/main.c25909cd.js.map",
     "787.a2cb61a6.chunk.js.map": "/CML120_Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.26ebd117.css",
-    "static/js/main.64cca1a2.js"
+    "static/css/main.36a84c8d.css",
+    "static/js/main.c25909cd.js"
   ]
 }
